@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "TickJack - 캐주얼 트레이딩 게임",
   description: "지루한 모의투자는 끝, 이제 직관적이고 짜릿한 차트 베팅 게임을 즐겨보세요.",
+  icons: {
+    icon: '/favicon.ico?v=tickjack-v2',
+  },
 };
 
 export default function RootLayout({
